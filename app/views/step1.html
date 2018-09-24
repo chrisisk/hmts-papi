@@ -1,0 +1,78 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+<a href="index.html" class="govuk-back-link">Back</a>
+
+<main class="govuk-main-wrapper " id="main-content" role="main">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Register for a developer account</h1>
+
+      <form action="account" method="post" novalidate>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-label--m" for="">
+            First name
+          </label>
+          <input class="govuk-input" id="" name="" type="text" aria-describedby="">
+        </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-label--m" for="">
+            Last name
+          </label>
+          <input class="govuk-input" id="" name="" type="text" aria-describedby="">
+        </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-label--m" for="">
+            Organisation (optional)
+          </label>
+          <input class="govuk-input" id="" name="" type="text" aria-describedby="">
+        </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-label--m" for="">
+            Email address
+          </label>
+          <input class="govuk-input" id="" name="" type="text" aria-describedby="">
+        </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-label--m" for="">
+            Create password
+          </label>
+          <span id="passport-number-hint" class="govuk-hint">
+              Your password must be at least 12 characters and contain at least one number, lowercase letter, uppercase letter and special character
+            </span>
+          <input class="govuk-input" id="" name="" type="text" aria-describedby="">
+        </div>
+
+        <div class="govuk-form-group">
+          <label class="govuk-label govuk-label--m" for="">
+            Confirm password
+          </label>
+          <input class="govuk-input" id="" name="" type="text" aria-describedby="">
+        </div>
+
+        <button type="submit" class="govuk-button">
+          Register
+        </button>
+
+      </form>
+
+      <p>Already registered? <a href="sign-in">Sign in to your account</a>
+      </p>
+    </div>
+  </div>
+</main>
+</div>
+
+{% endblock %}
