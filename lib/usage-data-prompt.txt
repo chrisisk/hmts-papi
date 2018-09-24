@@ -1,5 +1,5 @@
 
-Help us improve the GOV.UK Prototype Kit
+Help us improve the HMCTS API portal
 ────────────────────────────────────────
 
 With your permission, the kit can send useful anonymous usage data
